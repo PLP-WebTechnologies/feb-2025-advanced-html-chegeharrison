@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>HTML provides the structure of a webpage, defining elements like headings, paragraphs, and links.</li>
+            <li>CSS is used to style a webpage, making it visually appealing with colors, layouts, and animations.</li>
+            <li>JavaScript enables interactivity, allowing users to engage with dynamic elements like forms and buttons.</li>
+            <li>Responsive design ensures that webpages adapt to different screen sizes for a better user experience.</li>
+            <li>Web hosting is required to make a website accessible on the internet using a domain name and server.</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Beautiful Scenery" width="500">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Kamau</td>
+                    <td>Machakos</td>
+                    <td>+254723456789</td>
+                    <td>john@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Wanjiru</td>
+                    <td>Nyeri Town</td>
+                    <td>+2547543210</td>
+                    <td>janeswanjiru@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Nekesa</td>
+                    <td>Bungoma</td>
+                    <td>+25412334455</td>
+                    <td>emilynekesa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Owen</td>
+                    <td>Mombasa</td>
+                    <td>+2547876655</td>
+                    <td>michaelowen@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sarah Lishiro</td>
+                    <td>Kajiado</td>
+                    <td>+2547348899</td>
+                    <td>sarahlishiro@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select Country</option>
+                <option value="usa">Kenya</option>
+                <option value="uk">Nigeria</option>
+                <option value="canada">South Africa</option>
+                <option value="australia">Ghana</option>
+            </select>
+            <br>
+            
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label>
+            </fieldset>
+            
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>Interests:</legend>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label>
+            </fieldset>
+            
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</body>
+</html>
